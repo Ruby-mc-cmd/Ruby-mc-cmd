@@ -3,12 +3,12 @@ Minecraft Datapack や Mod を制作して遊んでいます！
 
 ## 主な使用言語
 - MinecraftCommand
-  .mcfunction
+  (.mcfunction)
 - Java
-  .java 
+  (.java)
 - Python
-  .py
+  (.py)
 - C#
-  .cpp
+  (.cpp)
 - JavaScript
-  .js
+  (.js)
