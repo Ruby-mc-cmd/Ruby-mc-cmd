@@ -9,6 +9,6 @@ Minecraft Datapack や Mod を制作して遊んでいます！
 - Python
   (.py)
 - C#
-  (.cpp)
+  (.cs)
 - JavaScript
   (.js)
