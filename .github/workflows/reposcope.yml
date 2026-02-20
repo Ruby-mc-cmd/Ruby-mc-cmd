@@ -15,18 +15,18 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
 
-      - name: Setup Node
+      - name: Setup Node.js
         uses: actions/setup-node@v4
         with:
           node-version: 20
 
-      - name: Run self-reposcope
+      - name: Generate reposcope SVG
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
-          npx self-reposcope \
-            --token ${{ secrets.GITHUB_TOKEN }} \
-            --output reposcope.svg
+          npx self-reposcope --output reposcope.svg
 
-      - name: Commit
+      - name: Commit and push
         run: |
           git config user.name github-actions
           git config user.email github-actions@github.com
