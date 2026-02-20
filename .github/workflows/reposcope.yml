@@ -1,0 +1,30 @@
+name: Reposcope
+
+on:
+  schedule:
+    - cron: "0 */6 * * *"
+  workflow_dispatch:
+
+jobs:
+  reposcope:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Generate repo scope
+        uses: 4okimi7uki/self-reposcope@v1
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          output_path: ./reposcope.svg
+
+      - name: Commit
+        run: |
+          git config user.name github-actions
+          git config user.email github-actions@github.com
+          git add reposcope.svg
+          git commit -m "update reposcope" || exit 0
+          git push
