@@ -12,19 +12,30 @@ jobs:
       contents: write
 
     steps:
-      - name: Checkout
+      - name: Checkout profile repo
         uses: actions/checkout@v4
+
+      - name: Clone self-reposcope
+        run: |
+          git clone https://github.com/4okimi7uki/self-reposcope.git
 
       - name: Setup Node.js
         uses: actions/setup-node@v4
         with:
           node-version: 20
 
-      - name: Generate reposcope SVG
+      - name: Install dependencies
+        run: |
+          cd self-reposcope
+          npm install
+
+      - name: Generate SVG
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
-          npx self-reposcope --output reposcope.svg
+          cd self-reposcope
+          node index.js \
+            --output ../reposcope.svg
 
       - name: Commit and push
         run: |
