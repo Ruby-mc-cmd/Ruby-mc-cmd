@@ -16,7 +16,7 @@ jobs:
         uses: actions/checkout@v4
 
       - name: Generate repo scope
-        uses: 4okimi7uki/self-reposcope@v1
+        uses: 4okimi7uki/self-reposcope@main
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           output_path: ./reposcope.svg
