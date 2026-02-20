@@ -2,7 +2,7 @@ name: Update Language Stats
 
 on:
     schedule:
-        - cron: "0 0 * * 1" # Every Monday
+        - cron: "0 0 * * *" # Every Monday
     workflow_dispatch:
 
 jobs:
