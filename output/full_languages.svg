@@ -54,19 +54,19 @@ tspan {
 </defs>
 <rect width="370" height="10" x="20" y="60" rx="5" ry="5" fill='#ccc' />
 <g clip-path="url(#roundedClip)">
-    <rect x="20" y="60" width="306" height="10" fill="#E22837"> <title>mcfunction 82.58%</title> </rect>
-    <rect x="326" y="60" width="39" height="10" fill="#178600"> <title>C# 10.61%</title> </rect>
-    <rect x="365" y="60" width="24" height="10" fill="#b07219"> <title>Java 6.36%</title> </rect>
-    <rect x="389" y="60" width="2" height="10" fill="#3572A5"> <title>Python 0.45%</title> </rect>
+    <rect x="20" y="60" width="313" height="10" fill="#E22837"> <title>mcfunction 84.60%</title> </rect>
+    <rect x="333" y="60" width="35" height="10" fill="#178600"> <title>C# 9.38%</title> </rect>
+    <rect x="368" y="60" width="21" height="10" fill="#b07219"> <title>Java 5.63%</title> </rect>
+    <rect x="389" y="60" width="1" height="10" fill="#3572A5"> <title>Python 0.40%</title> </rect>
 </g>
 <g id="lang_legend">
 <circle cx="30" cy="100" r="6" fill="#E22837" />
-<text x="46" y="104" font-size="13" font-family="system-ui, -apple-system, sans-serif" fill='currentColor'><tspan>mcfunction</tspan> 82.58%</text>
+<text x="46" y="104" font-size="13" font-family="system-ui, -apple-system, sans-serif" fill='currentColor'><tspan>mcfunction</tspan> 84.60%</text>
 <circle cx="225" cy="100" r="6" fill="#178600" />
-<text x="241" y="104" font-size="13" font-family="system-ui, -apple-system, sans-serif" fill='currentColor'><tspan>C#</tspan> 10.61%</text>
+<text x="241" y="104" font-size="13" font-family="system-ui, -apple-system, sans-serif" fill='currentColor'><tspan>C#</tspan> 9.38%</text>
 <circle cx="30" cy="124" r="6" fill="#b07219" />
-<text x="46" y="128" font-size="13" font-family="system-ui, -apple-system, sans-serif" fill='currentColor'><tspan>Java</tspan> 6.36%</text>
+<text x="46" y="128" font-size="13" font-family="system-ui, -apple-system, sans-serif" fill='currentColor'><tspan>Java</tspan> 5.63%</text>
 <circle cx="225" cy="124" r="6" fill="#3572A5" />
-<text x="241" y="128" font-size="13" font-family="system-ui, -apple-system, sans-serif" fill='currentColor'><tspan>Python</tspan> 0.45%</text>
+<text x="241" y="128" font-size="13" font-family="system-ui, -apple-system, sans-serif" fill='currentColor'><tspan>Python</tspan> 0.40%</text>
 </g>
 </svg>
