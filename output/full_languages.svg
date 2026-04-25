@@ -54,15 +54,15 @@ tspan {
 </defs>
 <rect width="370" height="10" x="20" y="60" rx="5" ry="5" fill='#ccc' />
 <g clip-path="url(#roundedClip)">
-    <rect x="20" y="60" width="317" height="10" fill="#E22837"> <title>mcfunction 85.61%</title> </rect>
+    <rect x="20" y="60" width="317" height="10" fill="#E22837"> <title>mcfunction 85.58%</title> </rect>
     <rect x="337" y="60" width="31" height="10" fill="#178600"> <title>C# 8.33%</title> </rect>
     <rect x="368" y="60" width="18" height="10" fill="#b07219"> <title>Java 5.00%</title> </rect>
     <rect x="386" y="60" width="3" height="10" fill="#3572A5"> <title>Python 0.71%</title> </rect>
-    <rect x="389" y="60" width="1" height="10" fill="#3178c6"> <title>TypeScript 0.34%</title> </rect>
+    <rect x="389" y="60" width="1" height="10" fill="#3178c6"> <title>TypeScript 0.39%</title> </rect>
 </g>
 <g id="lang_legend">
 <circle cx="30" cy="100" r="6" fill="#E22837" />
-<text x="46" y="104" font-size="13" font-family="system-ui, -apple-system, sans-serif" fill='currentColor'><tspan>mcfunction</tspan> 85.61%</text>
+<text x="46" y="104" font-size="13" font-family="system-ui, -apple-system, sans-serif" fill='currentColor'><tspan>mcfunction</tspan> 85.58%</text>
 <circle cx="225" cy="100" r="6" fill="#178600" />
 <text x="241" y="104" font-size="13" font-family="system-ui, -apple-system, sans-serif" fill='currentColor'><tspan>C#</tspan> 8.33%</text>
 <circle cx="30" cy="124" r="6" fill="#b07219" />
@@ -70,6 +70,6 @@ tspan {
 <circle cx="225" cy="124" r="6" fill="#3572A5" />
 <text x="241" y="128" font-size="13" font-family="system-ui, -apple-system, sans-serif" fill='currentColor'><tspan>Python</tspan> 0.71%</text>
 <circle cx="30" cy="148" r="6" fill="#3178c6" />
-<text x="46" y="152" font-size="13" font-family="system-ui, -apple-system, sans-serif" fill='currentColor'><tspan>TypeScript</tspan> 0.34%</text>
+<text x="46" y="152" font-size="13" font-family="system-ui, -apple-system, sans-serif" fill='currentColor'><tspan>TypeScript</tspan> 0.39%</text>
 </g>
 </svg>
