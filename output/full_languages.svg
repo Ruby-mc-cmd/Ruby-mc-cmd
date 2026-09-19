@@ -54,7 +54,7 @@ tspan {
 </defs>
 <rect width="370" height="10" x="20" y="60" rx="5" ry="5" fill='#ccc' />
 <g clip-path="url(#roundedClip)">
-    <rect x="20" y="60" width="224" height="10" fill="#E22837"> <title>mcfunction 60.47%</title> </rect>
+    <rect x="20" y="60" width="224" height="10" fill="#E22837"> <title>mcfunction 60.46%</title> </rect>
     <rect x="244" y="60" width="140" height="10" fill="#e34c26"> <title>HTML 37.96%</title> </rect>
     <rect x="384" y="60" width="3" height="10" fill="#178600"> <title>C# 0.70%</title> </rect>
     <rect x="387" y="60" width="2" height="10" fill="#b07219"> <title>Java 0.42%</title> </rect>
@@ -64,7 +64,7 @@ tspan {
 </g>
 <g id="lang_legend">
 <circle cx="30" cy="100" r="6" fill="#E22837" />
-<text x="46" y="104" font-size="13" font-family="system-ui, -apple-system, sans-serif" fill='currentColor'><tspan>mcfunction</tspan> 60.47%</text>
+<text x="46" y="104" font-size="13" font-family="system-ui, -apple-system, sans-serif" fill='currentColor'><tspan>mcfunction</tspan> 60.46%</text>
 <circle cx="225" cy="100" r="6" fill="#e34c26" />
 <text x="241" y="104" font-size="13" font-family="system-ui, -apple-system, sans-serif" fill='currentColor'><tspan>HTML</tspan> 37.96%</text>
 <circle cx="30" cy="124" r="6" fill="#178600" />
