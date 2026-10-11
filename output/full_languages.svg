@@ -54,9 +54,9 @@ tspan {
 </defs>
 <rect width="370" height="10" x="20" y="60" rx="5" ry="5" fill='#ccc' />
 <g clip-path="url(#roundedClip)">
-    <rect x="20" y="60" width="187" height="10" fill="#E22837"> <title>mcfunction 50.55%</title> </rect>
-    <rect x="207" y="60" width="155" height="10" fill="#e34c26"> <title>HTML 41.99%</title> </rect>
-    <rect x="362" y="60" width="23" height="10" fill="#f1e05a"> <title>JavaScript 6.16%</title> </rect>
+    <rect x="20" y="60" width="186" height="10" fill="#E22837"> <title>mcfunction 50.37%</title> </rect>
+    <rect x="206" y="60" width="154" height="10" fill="#e34c26"> <title>HTML 41.68%</title> </rect>
+    <rect x="360" y="60" width="25" height="10" fill="#f1e05a"> <title>JavaScript 6.65%</title> </rect>
     <rect x="385" y="60" width="2" height="10" fill="#178600"> <title>C# 0.58%</title> </rect>
     <rect x="387" y="60" width="1" height="10" fill="#b07219"> <title>Java 0.35%</title> </rect>
     <rect x="388" y="60" width="1" height="10" fill="#3572A5"> <title>Python 0.34%</title> </rect>
@@ -64,11 +64,11 @@ tspan {
 </g>
 <g id="lang_legend">
 <circle cx="30" cy="100" r="6" fill="#E22837" />
-<text x="46" y="104" font-size="13" font-family="system-ui, -apple-system, sans-serif" fill='currentColor'><tspan>mcfunction</tspan> 50.55%</text>
+<text x="46" y="104" font-size="13" font-family="system-ui, -apple-system, sans-serif" fill='currentColor'><tspan>mcfunction</tspan> 50.37%</text>
 <circle cx="225" cy="100" r="6" fill="#e34c26" />
-<text x="241" y="104" font-size="13" font-family="system-ui, -apple-system, sans-serif" fill='currentColor'><tspan>HTML</tspan> 41.99%</text>
+<text x="241" y="104" font-size="13" font-family="system-ui, -apple-system, sans-serif" fill='currentColor'><tspan>HTML</tspan> 41.68%</text>
 <circle cx="30" cy="124" r="6" fill="#f1e05a" />
-<text x="46" y="128" font-size="13" font-family="system-ui, -apple-system, sans-serif" fill='currentColor'><tspan>JavaScript</tspan> 6.16%</text>
+<text x="46" y="128" font-size="13" font-family="system-ui, -apple-system, sans-serif" fill='currentColor'><tspan>JavaScript</tspan> 6.65%</text>
 <circle cx="225" cy="124" r="6" fill="#178600" />
 <text x="241" y="128" font-size="13" font-family="system-ui, -apple-system, sans-serif" fill='currentColor'><tspan>C#</tspan> 0.58%</text>
 <circle cx="30" cy="148" r="6" fill="#b07219" />
